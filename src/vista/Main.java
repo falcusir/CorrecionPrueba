@@ -5,6 +5,8 @@
 package vista;
 
 import modelo.Direccion;
+import modelo.Persona;
+import modelo.Profesor;
 
 /**
  *
@@ -12,9 +14,14 @@ import modelo.Direccion;
  */
 public class Main {
     public static void main(String[] args) {
-        Direccion d1 = new Direccion("Tungurahua", "Ibarra", 593, "Ecuador");
-        System.out.println(d1.toString());
+        
+        Direccion d1 = new Direccion("Tungurahua", "Ibarra", 593, "Ecuador");       
+        Profesor p1 = new Profesor("Desarrollo de Software", "Fernanda", "Alcusir", 1003188198, d1);
+        System.out.println(p1.toString());
+
+        
+        }
     }
     
     
-}
+

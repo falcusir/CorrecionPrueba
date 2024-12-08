@@ -62,7 +62,10 @@ public class Direccion {
 
     @Override
     public String toString() {
-        return "DIRECCION: " + getPais()+", "+getCodPostal()+", "+ getCiudad()+", "+ getCalle();
+        return "\n    * Pais: " + getPais()+"\n"+
+               "    * Código Postal:  "+getCodPostal()+"\n"+
+               "    * Ciudad:  "+ getCiudad()+"\n"+
+               "    * Calle: "+ getCalle();
     }
     
     
